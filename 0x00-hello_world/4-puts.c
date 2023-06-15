@@ -3,6 +3,8 @@
  *main - Entry point
  *
  * return - Always 0 (Success)
+ *
+ * Description: The programs main entry point
  */
 int main(void)
 {
