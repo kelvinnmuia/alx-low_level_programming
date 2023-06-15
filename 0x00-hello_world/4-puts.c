@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- *main - Entry point
+ * main - Returns an integer value
  *
  * return - Always 0 (Success)
- *
- * Description: The programs main entry point
  */
 int main(void)
 {
