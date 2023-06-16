@@ -8,13 +8,13 @@
 int main(void)
 {
 	char hexNum = '0';
-	/*loops through to print lowercase alphabets*/
+	/*loops through to print numbers from 0 to 9*/
 	while (hexNum <= '9')
 	{
 		putchar(hexNum);
 		hexNum++;
 	}
-	/*loops through to print uppercase alphabets*/
+	/*loops through to print letters from a to f*/
 	hexNum = 'a';
 	while (hexNum <= 'f')
 	{
