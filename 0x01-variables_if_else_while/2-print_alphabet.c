@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	char alpha = 'a';	
-	/*loops through to print the alphabetical letters*/
+	char alpha = 'a';
+	/*loops through to print the alphabets*/
 	while (alpha <= 'z')
 	{
 		putchar(alpha);
