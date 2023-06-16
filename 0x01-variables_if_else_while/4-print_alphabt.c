@@ -11,7 +11,7 @@ int main(void)
 	/*loops through to print the alphabets*/
 	while (alpha <= 'z')
 	{
-		if(alpha != 'q' && alpha != 'e') 
+		if (alpha != 'q' && alpha != 'e')
 		{
 			putchar(alpha);
 		}
