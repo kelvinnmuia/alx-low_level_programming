@@ -7,16 +7,6 @@
  */
 int main(void)
 {
-	/*Declare str array and variable i*/
-	char str[20] = "_putchar\n";
-	int i = 0;
-
-	/*while loop to loop through the str array*/
-	while (i < 9)
-	{
-		putchar(str[i]);
-		i++;
-	}
-
+	_putchar();
 	return (0);
 }
