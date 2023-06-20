@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * _putchar - function
  * Description: Prints _putchar on the screen
@@ -17,6 +16,4 @@ void _putchar(void)
 		putchar(str[i]);
 		i++;
 	}
-
-	putchar('\n');
 }
