@@ -4,6 +4,8 @@
 #include <stdio.h>
 
 /*Function prototypes*/
+void print_alphabet(void);
+
 /*Constants*/
 
 #endif /*MAIN_H*/
