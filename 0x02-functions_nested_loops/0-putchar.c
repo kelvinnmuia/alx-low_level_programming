@@ -12,7 +12,7 @@ int main(void)
 	int i = 0;
 
 	/*while loop to loop through the str array*/
-	while (i < 11)
+	while (i < 9)
 	{
 		putchar(str[i]);
 		i++;
