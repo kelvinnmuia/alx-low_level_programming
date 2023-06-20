@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-// Function prototypes
-// Constants
+/*Function prototypes*/
+/*Constants*/
 
 #endif /*MAIN_H*/
