@@ -19,7 +19,7 @@ int main(void)
 		}
 		num++;
 	}
-	printf("The sum of multiples of 3 or 5 below %d is: %d\n", limit, sum);
+	printf("%d\n", sum);
 
 	return (0);
 }
