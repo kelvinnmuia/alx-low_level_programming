@@ -7,12 +7,12 @@
  */
 void print_times_table(int n)
 {
+	int row = 0;
+
 	if (n < 0 || n > 15)
 	{
 		return;
 	}
-
-	int row = 0;
 
 	while (row <= n)
 	{
@@ -46,6 +46,5 @@ void print_times_table(int n)
 		_putchar('\n');
 		row++;
 	}
-	return (0);
 }
 
