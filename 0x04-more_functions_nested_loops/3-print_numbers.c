@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Print_numbers - function
- * Description: function that prints numbers
- * Return: returns void
+ * print_numbers - function
+ * Description: The function prints numbers from 0 to 9
+ * Return: Returns 0
  */
 void print_numbers(void)
 {
