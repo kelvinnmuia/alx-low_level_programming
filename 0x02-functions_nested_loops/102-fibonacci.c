@@ -9,10 +9,9 @@ void print_fibonacci(int n)
 {
 	int first = 1;
 	int second = 2;
+	int counter;
 
 	printf("%d, %d", first, second);
-
-	int counter;
 
 	for (counter = 3; counter <= n; counter++)
 	{
