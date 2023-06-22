@@ -12,7 +12,9 @@ void print_fibonacci(int n)
 
 	printf("%d, %d", first, second);
 
-	for (int i = 3; i <= n; i++)
+	int i;
+
+	for (i = 3; i <= n; i++)
 	{
 		int next = first + second;
 
@@ -34,6 +36,6 @@ int main(void)
 {
 	int n = 50;
 
-	print_fibonacci(50);
+	print_fibonacci(n);
 	return (0);
 }
