@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /*Function prototypes*/
-int _isupper(int c)
+int _isupper(int c);
 /*Constants*/
 
 #endif /*MAIN_H*/
