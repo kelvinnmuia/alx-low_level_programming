@@ -12,9 +12,9 @@ void print_fibonacci(int n)
 
 	printf("%d, %d", first, second);
 
-	int i;
+	int counter;
 
-	for (i = 3; i <= n; i++)
+	for (counter = 3; counter <= n; counter++)
 	{
 		int next = first + second;
 
