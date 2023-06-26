@@ -3,7 +3,7 @@
  * @s: Target string
  * Return: Returns 0
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int length = 0;
 	int i;
