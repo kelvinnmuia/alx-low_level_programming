@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * puts2 - function
- * @s: Target string
+ * @str: The string
  * Return: Returns 0
  */
 void puts2(char *str)
@@ -11,7 +11,9 @@ void puts2(char *str)
 
 	while (str[i] != '\0')
 	{
-		i += 2;
+		if (i % 2 == 0)
+			_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
