@@ -8,13 +8,15 @@
 void puts2(char *str)
 {
 	int length = _strlen(str);
-	int st_index;
+	int f_half;
+	int s_half;
+	int i;
 
 	if (length % 2 == 0)
-		st_index = length / 2;
+		f_half = length / 2;
 	else
-		st_index = (length - 1) / 2;
-	for (i = st_index; i < length; i++)
+		s_half = (length - 1) / 2;
+	for (i = 0; i < length; i++)
 	{
 		_putchar(str[i]);
 	}
