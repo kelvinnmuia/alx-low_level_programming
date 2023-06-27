@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_array - function
- * @a: The array
- * @n: The parameter
+ * _strcpy - function
+ * @dest: The destination
+ * @src: The source
  * Return: Returns 0
  */
-char * _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *o_dest = dest;
 
