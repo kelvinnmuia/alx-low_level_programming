@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts2 - function
+ * puts_half - function
  * @str: The string
  * Return: Returns 0
  */
-void puts2(char *str)
+void puts_half(char *str)
 {
 	int length = 0;
 	int i;
