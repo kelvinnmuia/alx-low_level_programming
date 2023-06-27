@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	char password[9];
-	int i;
 	srand(time(NULL));
+	int i;
+	char password[9];
 
 	for (i = 0; i < 8; i++)
 	{
