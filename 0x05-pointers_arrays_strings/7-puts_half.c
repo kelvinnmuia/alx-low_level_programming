@@ -7,14 +7,24 @@
  */
 void puts2(char *str)
 {
-	int length = _strlen(str);
+	int length = 0;
 	int i;
+	int n;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		length++;
+	}
 
 	if (length % 2 == 0)
-		i = length / 2;
+	{
+		n = (length / 2);
+	}
 	else
-		i = (length - 1) / 2;
-	for (i = 0; i < length; i++)
+	{
+		n = (length - 1) / 2;
+	}
+	for (i = 0; i < n; i++)
 	{
 		_putchar(str[i]);
 	}
