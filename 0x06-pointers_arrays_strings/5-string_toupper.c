@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * reverse_array - function
+ * string_toupper - function
  * @str: the string
  * Return: returns string
  */
