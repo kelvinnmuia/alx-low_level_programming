@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /*Function prototypes*/
-char *_strncat(char *dest, char src, int n);
+char *_strcat(char *dest, char *src);
 /*Constants*/
 
 #endif /*MAIN_H*/
