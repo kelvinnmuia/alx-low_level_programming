@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _strncat - function
+ * _strcat - function
  * @dest: destination
  * @src: source
  * @n: size in bytes
  * Return: resturns concatnated characters
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src, int n)
 {
 	char d_addr = dest;
 
