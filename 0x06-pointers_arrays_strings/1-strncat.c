@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _strcat - function
+ * _strncat - function
  * @dest: destination
  * @src: source
  * @n: sizein bytes
