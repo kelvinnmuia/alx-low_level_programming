@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
- * main - function
- * Descripion: Entry point
- * Return: returns 0
- */
 int main(void)
 {
 	int n;
