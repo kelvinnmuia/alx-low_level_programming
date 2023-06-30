@@ -9,14 +9,14 @@
  */
 char *cap_string(char *str)
 {
-	int i;
+	char *ptr;
 	int cap = 1;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (ptr = str; *ptr != '\0'; ptr++)
 	{
-		if (cap && islower(str[i]))
-			str[i] -= 32;
-		cap = !isalpha(str[i]);
+		if (cap && islower(*ptr))
+			*ptr -= 32;
+		cap = !isalpha(*ptr);
 	}
 	return (str);
 }
