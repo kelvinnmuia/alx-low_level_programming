@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _pow_recursion - function tht returns the power of numbers
- * @x: base number
- * @y: power to the base number
+ * _sqrt_recursion - function that finds sqrt
+ * @n: the number
  * Return: Returns 1 or -1
  */
 int _sqrt_recursion(int n)
