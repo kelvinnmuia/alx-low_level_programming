@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main -function
- * Description: the program entry point
+ * @argc: argument count
+ * @argv: argument vector
  * Return: returns 0
  */
 int main(int argc, char *argv[])
