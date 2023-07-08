@@ -20,13 +20,16 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = 0; argv[1][i] != '\0'; i++)
+	i = 0;
+
+	while (argv[1][i])
 	{
-		if (!isdigit(argv[1][i]))
+		if (!isdigit(argv[1][i]) && !(argv[1][i] == '-' && i == 0))
 		{
 			printf("Error\n");
 			return (1);
 		}
+		i++;
 	}
 
 	cents = atoi(argv[1]);
