@@ -4,23 +4,27 @@
 #include "main.h"
 /**
  * _strdup - function
- * @str: the pointer to a string
- * Return: Returns a string
+ * @str: the string to be copied
+ * Return: Returnsa pointer to copy of the string
  */
 char *_strdup(char *str)
 {
-	size_t length = strlen(str) + 1;
-	char *duplicate = malloc(length);
+	int i;
+	int length = strlen(str);
+	char *ptr = malloc((length + 1) * sizeof(char));
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	if (duplicate != NULL)
+	if (ptr != NULL)
 	{
-		memcpy(duplicate, str, length);
+		for (i = 0; i <= length; i++)
+		{
+			ptr[i] = str[i];
+		}
 	}
 
-	return (duplicate);
+	return (ptr);
 }
