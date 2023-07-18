@@ -1,17 +1,15 @@
-#include "dog.h"
+#ifndef DOG_H
+#define DOG_H
 /**
- * init_dog - initialize dog members
- * @d: struct dog pointer
- * @name: dog name
- * @dog: dog age
- * @owner: dog owner
+ * struct dog - dogs struct
+ * @name: dogs name
+ * @age: dogs age
+ * @owner: dogs owner's name
  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+struct dog
 {
-	if (d)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
-}
+	char *name;
+	float age;
+	char *owner;
+};
+#endif
