@@ -33,9 +33,9 @@ char *_strcpy(char *s)
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
- * Return: returns null
+ * Return: Returns null or pointer
  */
-dog_t *new_dog(char *name, float age, char owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *ptr;
 
