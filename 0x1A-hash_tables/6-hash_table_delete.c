@@ -6,26 +6,25 @@
  *
  */
 
-void hash_table_print(const hash_table_t *ht)
+void hash_table_delete(hash_table_t *ht)
 {
-	hash_node_t *mover;
-	unsigned long int i = 0, check = 0;
+	hash_node_t *mover, *tmp;
+	unsigned long int i = 0;
 
 	if (ht == NULL)
 		return;
-	printf("{");
 	for (i = 0; i < ht->size; i++)
 	{
 		mover = ht->array[i];
 		while (mover != NULL)
 		{
-			if (check)
-				printf(", ");
-			printf("\'%s\': ", mover->key);
-			printf("\'%s\'", mover->value);
-			check = 1;
+			tmp = mover;
 			mover = mover->next;
+			free(tmp->key);
+			free(tmp->value);
+			free(tmp);
 		}
 	}
-	printf("}\n");
+	free(ht->array);
+	free(ht);
 }
