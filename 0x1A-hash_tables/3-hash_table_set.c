@@ -2,9 +2,9 @@
 #include <string.h>
 
 /**
- * hash_table_set - function to add an element to the hash table
- * @ht: hash table to add key/value pair to
- * @key: string used as key to find desired value in hash table
+ * hash_table_set - function for adding an element to the hash table
+ * @ht: the hash table to add key/value pair to
+ * @key: string used as key for finding desired value in hash table
  * @value: string stored as value with associated key
  *
  * Return: 1 if successful, 0 if failed
@@ -12,7 +12,7 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	char *value_duplicate, *key_duplicate;
+	char *value_duplicate, *key_dup;
 	int index = 0;
 	hash_node_t *new_node = NULL, *mover;
 
@@ -54,9 +54,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * duplicate_string - function to duplicate key/value string
- * @string: input key/value to duplicate
- * Return: duplicated string or NULL if failed
+ * duplicate_string - function for duplicating key/value string
+ * @string: input key/value that needs to be duplicated
+ * Return: NULL or duplicated string
  */
 
 char *duplicate_string(const char *string)
@@ -76,13 +76,13 @@ char *duplicate_string(const char *string)
 }
 
 /**
- * initialize_new_node - function to create and initialize new_node
+ * initialize_new_node - function for creating and initializing new_node
  * @key_duplicate: key string to set new_node->key to
  * @value_duplicate: value string to set new_node->value to
- * Return: initialized new_node, or NULL if failed
+ * Return: NULL or an initialized new node
  */
 
-hash_node_t *initialize_new_node(char *key_duplicate, char *value_duplicate)
+hash_node_t *initialize_new_node(char *key_dup, char *val_dup)
 {
 	hash_node_t *new_node;
 
@@ -90,17 +90,17 @@ hash_node_t *initialize_new_node(char *key_duplicate, char *value_duplicate)
 	if (new_node == NULL)
 		return (NULL);
 	new_node->key = key_duplicate;
-	new_node->value = value_duplicate;
+	new_node->value = val_duplicate;
 	new_node->next = NULL;
 	return (new_node);
 }
 
 /**
- * free_dups - function to free duplicated string or extra node
+ * free_dups - function for freeing duplicated string or extra node
  * @new_node: pointer to new node created
- * freed if node with key value already exists
+ *
  * @key: pointer to duplicated key string
- * freed if node with key exists or before exit failure
+ *
  * @value: pointer to duplicated value string
  * freed before exit failure or if value being replaced
  */

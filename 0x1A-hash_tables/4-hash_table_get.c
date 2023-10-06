@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * hash_table_get - function to return value associated with given key
+ * hash_table_get - function that returns value associated with given key
  * @ht: hash table to get key/value pair from
- * @key: string used as key to find desired value in hash table
+ * @key: string used as key for finding desired value in hash table
  *
- * Return: value associated with key, or NULL if key not found
+ * Return: value associated with key, or NULL if key was'nt found
  */
 
 char *hash_table_get(const hash_table_t *ht, const char *key)

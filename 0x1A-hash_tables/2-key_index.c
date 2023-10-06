@@ -1,10 +1,10 @@
 #include "hash_tables.h"
 
 /**
- * key_index - function to find index of given key
- * using hash_djb2 modulo size of hash table
- * @key: string used as key to find desired value in hash table
- * @size: size of the array of the hash table
+ * key_index - function for finding index of the given key
+ * 
+ * @key: the string used as key for finding the desired value in hash table
+ * @size: the array size of the hash table
  *
  * Return: index of the hash table where the key/value pair is stored
  */
