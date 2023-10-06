@@ -2,7 +2,7 @@
 
 /**
  * key_index - function for finding index of the given key
- * 
+ *
  * @key: the string used as key for finding the desired value in hash table
  * @size: the array size of the hash table
  *

@@ -82,7 +82,7 @@ char *duplicate_string(const char *string)
  * Return: NULL or an initialized new node
  */
 
-hash_node_t *initialize_new_node(char *key_dup, char *val_dup)
+hash_node_t *initialize_new_node(char *key_duplicate, char *value_duplicate)
 {
 	hash_node_t *new_node;
 
@@ -90,7 +90,7 @@ hash_node_t *initialize_new_node(char *key_dup, char *val_dup)
 	if (new_node == NULL)
 		return (NULL);
 	new_node->key = key_duplicate;
-	new_node->value = val_duplicate;
+	new_node->value = value_duplicate;
 	new_node->next = NULL;
 	return (new_node);
 }
