@@ -12,7 +12,7 @@
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	char *value_duplicate, *key_dup;
+	char *value_duplicate, *key_duplicate;
 	int index = 0;
 	hash_node_t *new_node = NULL, *mover;
 
@@ -54,9 +54,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 }
 
 /**
- * duplicate_string - function for duplicating key/value string
- * @string: input key/value that needs to be duplicated
- * Return: NULL or duplicated string
+ * duplicate_string - function to duplicate key/value string
+ * @string: input key/value to duplicate
+ * Return: duplicated string or NULL if failed
  */
 
 char *duplicate_string(const char *string)
@@ -76,10 +76,10 @@ char *duplicate_string(const char *string)
 }
 
 /**
- * initialize_new_node - function for creating and initializing new_node
+ * initialize_new_node - function to create and initialize new_node
  * @key_duplicate: key string to set new_node->key to
  * @value_duplicate: value string to set new_node->value to
- * Return: NULL or an initialized new node
+ * Return: initialized new_node, or NULL if failed
  */
 
 hash_node_t *initialize_new_node(char *key_duplicate, char *value_duplicate)
@@ -96,11 +96,11 @@ hash_node_t *initialize_new_node(char *key_duplicate, char *value_duplicate)
 }
 
 /**
- * free_dups - function for freeing duplicated string or extra node
+ * free_dups - function to free duplicated string or extra node
  * @new_node: pointer to new node created
- *
+ * freed if node with key value already exists
  * @key: pointer to duplicated key string
- *
+ * freed if node with key exists or before exit failure
  * @value: pointer to duplicated value string
  * freed before exit failure or if value being replaced
  */
