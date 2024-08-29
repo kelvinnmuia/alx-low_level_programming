@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World 
+# 0x01. C - Variables, if, else, while 
 ## The Domains/Concepts covered in this project: `C programming`
 
 The project introduced me to creating and assigning variable in C, as well as working with conditional statements and the while loop.
