@@ -1,4 +1,4 @@
-# 0x00. C - Hello, World 
+# 0x02. C - Functions, nested loops0x02. C - Functions, nested loops
 ## The Domains/Concepts covered in this project: `C programming`
 
 The project introduced me to Functions and nested loops in C programming languages.
