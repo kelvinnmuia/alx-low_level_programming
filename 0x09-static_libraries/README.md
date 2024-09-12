@@ -179,7 +179,7 @@ liball.a from all the .c files that are in the current directory.
 
 ##  0x09. C - Static libraries
 
-  * [0x09-C-Static-libraries](https://drive.google.com/file/d/10741FcveNcWvNCaFIp2roWBBbgr07gPA/view?usp=sharing)
+  * [0x09-C-Static-libraries](https://drive.google.com/file/d/1Os46nPTkA_StagtyvRkgp5rXcZ8KwjYj/view?usp=drive_link)
 
 ## Additional Project Resources
 
@@ -187,3 +187,4 @@ liball.a from all the .c files that are in the current directory.
   * [Creating A Static “C” Library Using “ar” and “ranlib”](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
   * [Using A “C” Library In A Program](https://docencia.ac.upc.edu/FIB/USO/Bibliografia/unix-c-libraries.html)
   * [What is difference between Dynamic and Static library(Static and Dynamic linking)](https://www.youtube.com/watch?v=eW5he5uFBNM)
+  * [Static Libraries: How to Create & Use them in C programming](https://www.youtube.com/watch?v=icbR8V5eOQc)
