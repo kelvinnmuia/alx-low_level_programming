@@ -1,4 +1,4 @@
-# 0x08. C - Recursion 
+# 0x09. C - Static libraries 
 ## The Domains/Concepts covered in this project: `C programming`
 
 The project introduced me to creating static libraries in C Programming.
