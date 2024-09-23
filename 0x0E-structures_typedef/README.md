@@ -238,5 +238,5 @@ julien@ubuntu:~/0x0d. structures, typedef$
   * [0x0d. Typedef and structures.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/c8ff3e6f7202be7fa489a584e41d005504a07c23.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240923%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240923T122315Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c482f478c25b46e28e3a8be52c92e035c4450cd131e019660e68250b73c4554c)
   * [typedef](https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html)
   * [Structs & Typedef in C Explained](https://www.youtube.com/watch?feature=shared&v=V13CbI74WQc)
-  * [Practical use of structs & typedef with coding examples](Practical use of structs & typedef with coding examples)
+  * [Practical use of structs & typedef with coding examples](https://www.youtube.com/watch?feature=shared&v=0IVfazuTHU8)
   * [The Lost Art of C Structure Packing](http://www.catb.org/esr/structure-packing/)
