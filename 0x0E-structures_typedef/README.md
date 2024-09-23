@@ -5,7 +5,7 @@ The project introduced me to struct in C Programming language.
 
 ## Tasks :page_with_curl:
 
-** 0. Poppy**
+**0. Poppy**
 
 Define a new type struct dog with the following elements:
 
