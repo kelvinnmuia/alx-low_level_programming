@@ -226,7 +226,7 @@ julien@ubuntu:~/0x0d. structures, typedef$
 
   * [5-free_dog.c](./5-free_dog.c): A C function that frees dogs.
 
-##  0x0D. C - Preprocessor
+## 0x0E. C - Structures, typedef
 
   * [0x0E-C-Structures-typedef](https://drive.google.com/file/d/1HK6UO3jJkk9O2LQkTbLau1wS8NCW6k2B/view?usp=drive_link)
 
