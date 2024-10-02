@@ -1,5 +1,5 @@
-# 0x13. C - More singly linked lists
-## The Domains/Concepts covered in this project: `C programming` `Algorithm` `Data structure`
+# 0x14. C - Bit manipulation 
+## The Domains/Concepts covered in this project: `C programming`
 
  The project introduced me to bit manipulation in C programming language.
 
