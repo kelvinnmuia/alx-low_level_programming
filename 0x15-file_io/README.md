@@ -1,7 +1,7 @@
-# 0x14. C - Bit manipulation 
-## The Domains/Concepts covered in this project: `C programming`
+# 0x15. C - File I/O
+## The Domains/Concepts covered in this project: `C programming` `Syscall`
 
- The project introduced me to bit manipulation in C programming language.
+ The project introduced me to C File I/O
 
 ## Tasks :page_with_curl:
 
