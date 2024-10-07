@@ -1,5 +1,5 @@
-# 0x17. C - Doubly linked lists
-## The Domains/Concepts covered in this project: `C programming` `Algorithm` `Data structure`
+# 0x18. C - Dynamic libraries
+## The Domains/Concepts covered in this project: `C programming`
 
  The project introduced me to Dynamic library in C programming language.
 
