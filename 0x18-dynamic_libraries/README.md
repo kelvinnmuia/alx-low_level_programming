@@ -244,6 +244,6 @@ mss@gm_server$ exit
 
   * [What is difference between Dynamic and Static library (Static and Dynamic linking)](https://www.youtube.com/watch?v=eW5he5uFBNM)
   * [Creating a dynamic library in C](https://cylab.be/blog/234/creating-a-dynamic-library-in-c)
-  * [Chapter 17. Creating libraries with GCC](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/developer_guide/creating-libraries-gcc#creating-libraries-gcc
+  * [Chapter 17. Creating libraries with GCC](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/developer_guide/creating-libraries-gcc#creating-libraries-gcc)
   * [create dynamic libraries on Linux](https://www.google.com/search?q=linux+create+dynamic+library)
 
