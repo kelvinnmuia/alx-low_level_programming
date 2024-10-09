@@ -1,12 +1,7 @@
-# 0x1A. C - Hash tables
-## The Domains/Concepts covered in this project: `C programming` `Algorithm` `Data structure`
+# 0x1C. C - Makefiles
+## The Domains/Concepts covered in this project: `C programming`
 
- The project introduced me to hash tables in C programming language.
-
-**More Info**
-**Files**
-
-In the following tasks, we are going to use these files. We want to compile these only.
+ The project introduced me to Makefiles in C programming language.
 
 ## Tasks :page_with_curl:
 
