@@ -54,7 +54,7 @@ The projects contained within this repository are structured to progressively bu
 **Low-level programming & Algorithm - Linux and Unix system programming**
 
   * [0x15. C - File I/O](./0x15-file_io)
-  * [0x16. C - Simple Shell](./https://github.com/kelvinnmuia/simple_shell)
+  * [0x16. C - Simple Shell](https://github.com/kelvinnmuia/simple_shell)
 
 ## Highlights of My Journey
 
